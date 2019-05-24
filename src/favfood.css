@@ -1,0 +1,94 @@
+.FavFoodHeaderContainer{
+    display: flex;
+    align-items: center;
+    margin: 8px 0px;
+}
+
+.FavFoodTitleContainer{
+    flex:4;
+    text-align: left;
+}
+
+.FavFoodCart{
+    flex:1;
+    text-align: right;
+}
+
+.FavFoodTitle{
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #222222;
+}
+
+.FavFoodSubTitle{
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #9b9b9b;
+}
+.FavFoodMainContainer{
+    margin: 0px 12px
+}
+
+.FAVFoodListContainer {
+    display: flex;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.FAVFoodListItemContainer{
+    flex:1;
+    padding: 8px;
+}
+
+.FAVFoodListFooterContainer{
+    display: flex;
+    padding: 8px 0px;
+}
+
+.FAVFoodListDetailContainer{
+    flex: 3;
+    text-align: left;
+}
+
+.FAVFoodListName{
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #222222;
+}
+.FAVFoodListPrice{
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #222222;
+}
+
+.FavFoodListImage{
+    height: 250px;
+    width: 250px;
+}
+.FAVFoodListOrder {
+    flex: 1;
+    text-align: right;
+}
+
+.FAVFoodListOrder{
+    background:green;
+    padding:8px;
+    color:white;
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.FoodListImage {
+    width: 500px;
+    height: 300px;
+}
+
+.FoodListFooterContainer {
+    display: flex;
+    align-items:center;
+}
+
+.FoodListDetailContainer{
+    flex:4;
+    text-align: left;
+}
+
+.FoodListOrder{
+    text-align: right;
+}
+
+.FoodListContainer{
+    margin-top:24px;
+}
+
+.FoodListOrder{
+    background:green;
+    padding:8px;
+    color:white;
+    cursor: pointer;
+}
